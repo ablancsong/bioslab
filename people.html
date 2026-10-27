@@ -152,6 +152,10 @@ figcaption b { font-weight: 600; color: var(--ink); }
 .pi-name { margin-top: 12px; font-size: 34px; line-height: 1.15; }
 .pi-name span { font-size: 22px; color: var(--ink-3); }
 .pi .body { margin-top: 16px; font-size: 17.5px; line-height: 1.75; color: var(--ink-2); }
+.pi-lines { margin: 20px 0 0; display: grid; grid-template-columns: 180px minmax(0, 1fr); column-gap: 24px; border-bottom: 1px solid var(--rule); }
+.pi-lines dt, .pi-lines dd { margin: 0; padding: 14px 0; border-top: 1px solid var(--rule); line-height: 1.65; }
+.pi-lines dt { font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); padding-top: 17px; }
+.pi-lines dd { font-size: 16.5px; color: var(--ink-2); }
 .links { margin-top: 16px; font-size: 15px; color: var(--ink-2); }
 .note { margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--rule); font-size: 16px; color: var(--ink-2); }
 
@@ -251,6 +255,9 @@ main > .sec:first-child > .head { border-top: 0; padding-top: 0; }
   .rows li { grid-template-columns: 1fr; gap: 4px; padding: 14px 0; }
   .proj h3 { font-size: 21px; }
   .pi-name { font-size: 26px; }
+  .pi-lines { grid-template-columns: minmax(0, 1fr); }
+  .pi-lines dd { border-top: 0; padding-top: 2px; }
+  .pi-lines dt { padding-bottom: 0; }
   .dark { padding: 56px 0 60px; }
   .site-footer { flex-direction: column; align-items: flex-start; }
 }
@@ -266,7 +273,8 @@ main > .sec:first-child > .head { border-top: 0; padding-top: 0; }
 <section class="wrap sec" id="people">
 <div class="split head"><div><p class="label">People</p><h1>Who is here</h1></div><div></div></div>
 <div class="pi"><div><p class="label">Principal investigator</p><h3 class="pi-name">Harim Koo <span>구하림</span></h3>
-<p class="body">Works on integrating multi-omics cancer data so that it says something a clinician can use. Recent work spans the genome of glioblastoma in Korean patients, the proteogenomics of medulloblastoma and the single-cell history of meningioma.</p>
+<p class="body">Works across three connected lines of cancer research.</p>
+<dl class="pi-lines"><dt>Multi-omics</dt><dd>Proteogenomic evolution of glioblastoma from diagnosis to recurrence (<i>Cancer Cell</i> 2024), and proteogenomic subtypes of medulloblastoma linked to progression (<i>Experimental &amp; Molecular Medicine</i> 2026).</dd><dt>Real-world panel data</dt><dd>NGS panel profiling of advanced solid tumours in KOSMOS, a molecular profiling-guided therapy programme in which a central molecular tumour board recommends treatment.</dd><dt>Cancer genomics</dt><dd>Molecular features of chemotherapy resistance in IDH wild-type glioblastoma (<i>Genome Medicine</i> 2023), and how cancer genomes differ between patient populations.</dd></dl>
 <p class="links"><a href="mailto:harimkoo@ulsan.ac.kr">harimkoo@ulsan.ac.kr</a></p></div></div>
 </section>
 </main>
