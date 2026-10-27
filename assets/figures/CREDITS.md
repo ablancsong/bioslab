@@ -5,6 +5,7 @@ They are embedded in `index.html`; these files are reference copies.
 
 | File | Source | Licence |
 |---|---|---|
+| `cc24-ga.webp` | Kim, Migliozzi, Koo H et al. *Cancer Cell* 2024, graphical abstract. doi:10.1016/j.ccell.2023.12.015 | &copy; Elsevier Inc.; reproduced by an author of the article |
 | `nc23.webp` | Lin et al., with Koo H. *Nature Communications* 2023, Fig. 1c. doi:10.1038/s41467-023-37306-1 | CC BY 4.0 |
 | `landscape.webp` | Park et al., with Koo H. *Experimental & Molecular Medicine* 2026, Fig. 1 (upper part). doi:10.1038/s12276-026-01732-0 | CC BY 4.0 |
 | `cdd21.webp` | Choi et al., with Koo H. *Cell Death & Disease* 2021, Fig. 1B. doi:10.1038/s41419-021-03657-0 | CC BY 4.0 |
@@ -13,4 +14,4 @@ They are embedded in `index.html`; these files are reference copies.
 
 CC BY panels were cropped at the white space between panels; nothing inside a panel was altered.
 The Nature Communications 2025 figure (CC BY-NC-ND) is shown whole and unmodified, scaled only.
-Cancer Cell 2024 is represented by a summary drawing made for the site; Brain 2021 has no figure.
+The Cancer Cell 2024 graphical abstract is shown whole and unmodified under the authors' reuse rights. Brain 2021 has no figure.
